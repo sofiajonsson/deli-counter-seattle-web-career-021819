@@ -17,7 +17,7 @@ def line (array)
 
 def now_serving
   if array.length >=1 
-    array 2 = []
+    array2 = []
     counter = 1 
     array.each do |name|
       array2.push("#{name}")
