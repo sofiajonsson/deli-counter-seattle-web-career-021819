@@ -41,10 +41,10 @@ end
 #   end
 # end  
 
-def take_a_number(katz_deli, new_person)
-  line.push(new_person) # could say: "line << new_person"
-  puts "Welcome, #{new_person}. You are number #{line.length} in line."
-end
+# def take_a_number(katz_deli, new_person)
+#   line.push(new_person) # could say: "line << new_person"
+#   puts "Welcome, #{new_person}. You are number #{line.length} in line."
+# end
   
   
   
