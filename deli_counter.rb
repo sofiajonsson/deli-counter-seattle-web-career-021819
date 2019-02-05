@@ -4,5 +4,6 @@ katz_deli = []
 def line (array)
   array2 = []
   counter = 1 
-  array.each do |katz_deli|
+  array.each do |name|
+    
 end
