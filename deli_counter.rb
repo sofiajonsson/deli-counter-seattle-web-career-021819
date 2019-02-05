@@ -15,3 +15,15 @@ def line (array)
     end
   end
 
+def now_serving
+  if array.length >=1 
+    array 2 = []
+    counter = 1 
+    array2.push("#{name}")
+    counter += 1 
+  end
+    puts "Currently serving #{name}."
+  else
+    puts "There is nobody waiting to be served!"
+  end
+end 
