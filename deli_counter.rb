@@ -28,3 +28,5 @@ def now_serving
       puts "There is nobody waiting to be served!"
   end
 end 
+
+def take_a_number(katz_deli, name)
