@@ -16,6 +16,7 @@ def line (array)
   end
 
 def take_a_number(line, new_person)
+  line.push(new_person)
 
 def now_serving(line)
   if line.length == 0 
