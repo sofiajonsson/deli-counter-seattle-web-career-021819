@@ -5,10 +5,10 @@ def line (array)
   array2 = []
   counter = 1 
   array.each do |name|
-    array2.push("")
-end
-   end 
-    puts "The line is currently: #{nuarray.join(" ")}"
+      array2.push("#{counter}. #{name}")
+      counter += 1 
+    end 
+    puts "The line is currently: #{array2.join(" ")}"
   else
     puts "The line is currently empty."
   end
