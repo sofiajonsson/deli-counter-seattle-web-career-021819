@@ -2,5 +2,7 @@
 katz_deli = []
 
 def line (array)
-  array
+  array2 = []
+  counter = 1 
+  array.each do |katz_deli|
 end
