@@ -29,17 +29,22 @@ def now_serving
   end
 end 
 
+# def take_a_number(katz_deli, new_person)
+#   if array.length >= 1 
+#     array2 = []
+#     counter = 1 
+#     array.each do |name|
+#       array2.push("#{name}" "#{counter}")
+#       counter +=1 
+#     end
+#     puts "Welcome, #{name}. You are number #{counter} in line"
+#   end
+# end  
+
 def take_a_number(katz_deli, new_person)
-  if array.length >= 1 
-    array2 = []
-    counter = 1 
-    array.each do |name|
-      array2.push("#{name}" "#{counter}")
-      counter +=1 
-    end
-    puts "Welcome, #{name}. You are number #{counter} in line"
-  end
-end  
+  line.push(new_person) # could say: "line << new_person"
+  puts "Welcome, #{new_person}. You are number #{line.length} in line."
+end
   
   
   
