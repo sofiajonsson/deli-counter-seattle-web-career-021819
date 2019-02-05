@@ -15,7 +15,7 @@ def line (array)
     end
   end
 
-def now_serving(new_person)
+def take_a_number()
 
 def now_serving(line)
   if line.length == 0 
